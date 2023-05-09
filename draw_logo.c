@@ -34,7 +34,7 @@
  *
  * OpenGL(TM) is a trademark of Silicon Graphics, Inc.
  */
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 #include "sgilogo.h"
 

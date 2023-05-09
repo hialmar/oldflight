@@ -2,7 +2,7 @@
 #ifdef W32
 #include <Windows.h>
 #endif
-#include <GL/gl.h>
+#include <OpenGL/gl.h>
 
 static GLubyte rasters[24] = {
    0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00,

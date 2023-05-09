@@ -3,9 +3,10 @@
 #ifdef W32
 #include <windows.h>
 #endif
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/glut.h>
+#define GL_SILENCE_DEPRECATION
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <GLUT/glut.h>
 #include <stdio.h>
 #include "colors.h"
 #include "maths.h"

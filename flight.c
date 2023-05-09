@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <math.h>
 
+#include <stdlib.h>
+
 #pragma warning(disable : 4996)
 
 void rebuild_status() {
