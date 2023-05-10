@@ -190,6 +190,7 @@ void special_key(int k, int x, int y) {
 		lgs->textures = !lgs->textures;
 		break;
 	case GLUT_KEY_F11:
+    case GLUT_KEY_F4:
 		if (!fullscreen) {
 			glutFullScreen();
 		}
@@ -293,6 +294,7 @@ void object_special_viewerKey(int k, int x, int y) {
 		lgs->cpitch -= 5;
 		break;
 	case GLUT_KEY_F11:
+	case GLUT_KEY_F4:
 		glutFullScreen();
 		break;
 	}
